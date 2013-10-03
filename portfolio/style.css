@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f0efe8;
+	color: #525252;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 12px;
+}
+
+a {
+	color: #525252;
+	text-decoration: none;
+}
+
+/* MAIN HEADER */
+.main-header {
+	padding: 60px 0px;
+}
+
+.main-header h1 {
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 4px;
+	margin-bottom: 6px;
+}
+
+.main-header p {
+	text-transform: lowercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+	opacity: .6;
+}
+
+/* PORTFOLIO */
+
+.portfolio-list {
+	margin-bottom: 35px;
+	overflow: hidden;
+	list-style: none;
+}
+
+.portfolio-item {
+	margin: 0 10% 25px;
+}
+
+.portfolio-link {
+	display: inline-block;
+	max-width: 480px;
+	position: relative;
+}
+
+.portfolio-thumb {
+	display: block;
+	width: 100%;
+}
+
+/* FOOTER */
+
+.main-footer {
+	padding: 60px 0;
+	margin: 0 10%;
+	border-top: 1px solid #ccc;
+}
+
+/* SOCIAL LIST */
+
+.social-item {
+	display: inline-block;
+}
+
+.social-item a {
+	display: block;
+	padding: 0 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.social-item-twitter a:hover {
+	color: #00acee;
+}
+
+.social-item-facebook a:hover {
+	color: #3b5998;
+}
+
+.social-item-github a:hover {
+	color: #171515;
+}
