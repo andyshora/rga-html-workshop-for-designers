@@ -64,21 +64,19 @@ a {
             transition: all .6s ease-out;
 
             /* start state */
-            -webkit-filter: grayscale(1);
+            -webkit-filter: saturate(0%);
+            -webkit-transform: translateZ(0); /* fuz fix */
 }
 
 .portfolio-link:hover img {
     /* end state, on hover */
-     -webkit-filter: grayscale(0);
+     -webkit-filter: saturate(100%);
 }
 
 .portfolio-name {
      /* start state */
     position: absolute;
-    bottom: -20px;
-    left: 0;
-    width: 100%;
-    opacity: 0;
+    bottom: -50px;
     background: white;
     width: 80%;
     margin: 0 10%;
@@ -99,7 +97,6 @@ a {
 
 .portfolio-link:hover .portfolio-name {
     /* end state, on hover */
-    opacity: 1;
     bottom: -5px;   
 }
 
