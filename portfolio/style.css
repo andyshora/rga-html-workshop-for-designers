@@ -97,7 +97,8 @@ a {
 
 .portfolio-link:hover .portfolio-name {
     /* end state, on hover */
-    bottom: -5px;   
+    /*bottom: -5px;*/
+    -webkit-transform: translateY(-50px);
 }
 
 .portfolio-thumb {
