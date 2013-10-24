@@ -8,3 +8,5 @@ Workshop 2: Basic Introduction to CSS - Pedro Duarte
 Workshop 3: CSS Theory & Box Model - Pedro Duarte
 
 Workshop 4: CSS Responsive - Benoît Grélard
+
+Workshop 5: CSS Transitions - Andy Shora
