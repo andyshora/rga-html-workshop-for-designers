@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Animations</title>
+
+	<style>
+		div {
+		  width: 200px;
+		  height: 200px;
+		  margin: 20px;
+		}
+
+		.transition {
+		  background: red;
+		}
+
+		  .transition:hover {
+		    background: black;
+		    -webkit-transition: all 400ms;
+		  }
+
+		.animation {
+		  background: hotpink;
+		}
+
+		  .animation:hover {
+		  	/*https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name*/
+		    -webkit-animation-name: hover;
+
+		    /*https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration*/
+		    -webkit-animation-duration: 600ms;
+
+		    /*https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay*/
+		    -webkit-animation-delay: 0;
+
+		    /*https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function*/
+		    -webkit-animation-timing-function: linear;
+
+		    /*https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode*/
+		    -webkit-animation-fill-mode: both;
+
+		    /*https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count*/
+		    -webkit-animation-iteration-count: 1;
+
+		    /*https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction*/
+		    -webkit-animation-direction: normal;
+
+		    /*https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state*/
+		    -webkit-animation-play-state: running;
+		  }
+
+		@-webkit-keyframes hover {
+		  100% {
+		  	-webkit-transform: rotate(90deg);
+		    background: black;
+		  }
+		}
+	</style>
+
+</head>
+<body>
+
+	<p>Transition</p>
+	<div class="transition"></div>
+	<p>Animation</p>
+	<div class="animation"></div>
+
+</body>
+</html>
